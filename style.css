@@ -1,0 +1,110 @@
+.heading_chakra_petch {
+  font-family: 'Chakra Petch', sans-serif;
+  color: rgb(89, 52, 79);
+}
+
+body {
+    background-color: #fbf5f3;
+    text-align: center;
+}
+
+p {
+  color: rgb(30, 30, 36);
+}
+
+.btn_social {
+  font-size:xx-large;
+  text-decoration: none;
+  color: #470063;
+}
+
+.btn_le_wagon {
+  background-color: #470063;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+img{
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+.btn_le_wagon:hover {
+  background-color: blueviolet;
+}
+
+.btn_social:hover {
+  color: blueviolet;
+}
+
+.container{
+  width: 700px;
+  height: 100%;
+  margin: 0% auto;
+  overflow: auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card_div {
+  background: white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  text-align: center;
+  margin: 6px auto;
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+.card_photo_and_body {
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 6px auto;
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+.card_photo_and_body > p {
+  padding: 10px;
+}
+
+.card_photo_and_body > img {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+.card_photo_and_body > a {
+  margin: 10px;
+}
+
+.card_links {
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 6px auto;
+  box-shadow: 4px 4px 2px 1px rgba(0,0,0,.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
